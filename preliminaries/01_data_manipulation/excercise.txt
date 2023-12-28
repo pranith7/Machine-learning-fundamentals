@@ -1,0 +1,6 @@
+1. Run the code in this section. Change the conditional statement X == Y to X < Y or X > Y, 
+   and then see what kind of tensor you can get.
+
+2. Replace the two tensors that operate by element in the broadcasting mechanism 
+   with other shapes, e.g., 3-dimensional tensors. Is the result the same as 
+   expected?
