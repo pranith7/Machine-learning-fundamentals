@@ -1,0 +1,14 @@
+1. Try loading datasets, e.g., Abalone from the UCI Machine Learning Repository and inspect their properties. 
+   What fraction of them has missing values? What fraction of the variables is numerical, categorical, or text?
+
+2. Try indexing and selecting data columns by name rather than by column number. The pandas documentation on
+   indexing has further details on how to do this.
+
+3. How large a dataset do you think you could load this way? What might be the limitations? Hint: 
+   consider the time to read the data, representation, processing, and memory footprint. Try this out on your laptop. 
+   What happens if you try it out on a server?
+
+4. How would you deal with data that has a very large number of categories? What if the category labels are all unique? 
+   Should you include the latter?
+
+5. What alternatives to pandas can you think of? How about loading NumPy tensors from a file? Check out Pillow, the Python Imaging Library.
